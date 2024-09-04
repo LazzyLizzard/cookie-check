@@ -13,7 +13,7 @@ export const Test = () => {
         console.log('cookies', cookies);
 
         setCookieInfo(cookies[COOKIE_NAME] || 'NO');
-    }, [JSON.stringify(cookies)]);
+    }, [cookies]);
 
     // console.log(cookies);
 
